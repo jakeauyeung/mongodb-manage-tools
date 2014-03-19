@@ -1,0 +1,35 @@
+<% include header %>
+<% if (user) { %>
+<nav class="nav">
+	<ul>
+	<li><a href="/"><i class="fa fa-home"></i>&nbsp;首页</a></li>
+	<li><a href="/"><i class="fa fa-plus"></i>&nbsp;增加</a></li>
+	<li><a href="/"><i class="fa fa-edit"></i>&nbsp;修改</a></li>
+	<li><a href="/"><i class="fa fa-trash-o"></i>&nbsp;删除</a></li>
+	<li><a href="/"><i class="fa fa-coffee"></i>&nbsp;查看</a></li>
+	<li><a href="/logout"><i class="fa fa-hand-o-left"></i>&nbsp;注销</a></li>
+	</ul>
+</nav>
+<% } else { %>
+    <div class="login-panel">
+    <h4><i class="fa fa-cog fa-spin"></i>&nbsp;<%= title %></h4>
+		    <form class="pure-form pure-form-aligned" method="post">
+		    <fieldset>
+		        <div class="pure-control-group">
+		            <label for="name">用户名：</label>
+		            <input id="name" name="name" type="text" placeholder="用户名">
+		        </div>
+
+		        <div class="pure-control-group">
+		            <label for="password">密码：</label>
+		            <input id="password" name="password" type="password" placeholder="密码">
+		        </div>
+
+		        <div class="pure-controls">
+		            <button type="submit" class="pure-button pure-button-primary"><i class="fa fa-user"></i>&nbsp;登录</button>
+		        </div>
+		    </fieldset>
+		</form>
+    </div>
+<% } %>
+<% include footer %>
