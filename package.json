@@ -11,7 +11,6 @@
     "mongodb": "*",
     "connect-mongo": "*",
     "connect-flash": "*",
-    "less-middleware": "*",
-    "mongoose": "*"
+    "less-middleware": "*"
   }
 }

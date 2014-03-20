@@ -4,7 +4,7 @@
  */
 var crypto = require('crypto'),
     fs = require('fs'),
-    ceshi = require('./ceshi.js'),
+    Question = require('../models/question.js'),
     User = require('../models/user.js');
 
 module.exports = function(app) {
@@ -88,7 +88,24 @@ module.exports = function(app) {
 		    error: req.flash('error').toString()
 			});
 		});
-	app.post('/add', ceshi.doAdd);
+	app.post('/add', function(req, res){
+		var content = req.body.userJson,
+				json = JSON.parse(content);
+		var newQuestion = new Question({
+	      name: json.name,
+	      password: json.password,
+	      email: json.email
+	  });
+	  console.log(json);
+		newQuestion.save(function (err, user) {
+	      if (err) {
+	        req.flash('error', err);
+	        return res.redirect('/add');//注册失败返回主册页
+	      }
+	      req.flash('success', '添加成功!');
+	      res.redirect('/add');//注册成功后返回主页
+	    });
+	});
 	app.get('/logout', function (req, res) {
 	  req.session.user = null;
 	  req.flash('success', '登出成功!');
