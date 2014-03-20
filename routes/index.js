@@ -79,6 +79,17 @@ module.exports = function(app) {
 	    });
 	  });
 	});
+	app.get('/add', function(req, res){
+			res.render('add', { 
+				title: '数据库管理-添加',
+				user: req.session.user,
+		    success: req.flash('success').toString(),
+		    error: req.flash('error').toString()
+			});
+		});
+	app.post('/add', function(req, res){
+
+	});
 	app.get('/logout', function (req, res) {
 	  req.session.user = null;
 	  req.flash('success', '登出成功!');

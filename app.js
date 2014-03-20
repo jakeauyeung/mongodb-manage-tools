@@ -9,6 +9,7 @@ var http = require('http');
 var path = require('path');
 var MongoStore = require('connect-mongo')(express);
 var settings = require('./settings');
+var lessMiddleware = require('less-middleware');
 var flash = require('connect-flash');
 
 var fs = require('fs');
@@ -38,6 +39,10 @@ app.use(express.session({
   })
 }));
 app.use(app.router);
+app.use(lessMiddleware('/stylesheets/less', {
+  dest: '/stylesheets/css',
+  pathRoot: path.join(__dirname, 'public')
+}));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(function (err, req, res, next) {

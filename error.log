@@ -228,3 +228,55 @@ user is not defined
     at ServerResponse.res.render (/Users/jakeauyeung/Documents/Dev/github/mongodb-manage-tools/node_modules/express/lib/response.js:798:7)
     at /Users/jakeauyeung/Documents/Dev/github/mongodb-manage-tools/routes/index.js:11:7
     at callbacks (/Users/jakeauyeung/Documents/Dev/github/mongodb-manage-tools/node_modules/express/lib/router/index.js:164:37)
+[Thu Mar 20 2014 09:52:14 GMT+0800 (China Standard Time)] /stylesheets/css/style.css
+TypeError: Object #<Object> has no method 'match'
+    at module.exports.locate (f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\lib\determine-imports.js:49:17)
+    at process_import_rule (f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\lib\determine-imports.js:34:20)
+    at f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\lib\determine-imports.js:28:5
+    at Array.forEach (native)
+    at module.exports.process_tree_node (f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\lib\determine-imports.js:27:16)
+    at module.exports (f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\lib\determine-imports.js:10:3)
+    at f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\lib\middleware.js:116:29
+    at Object.finish [as _finish] (f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\node_modules\less\lib\less\parser.js:669:28)
+    at Object.subFinish [as _finish] (f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\node_modules\less\lib\less\import-visitor.js:63:47)
+    at Object.tree.importVisitor.run (f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\node_modules\less\lib\less\import-visitor.js:25:22)
+[Thu Mar 20 2014 09:52:15 GMT+0800 (China Standard Time)] /stylesheets/css/style.css
+TypeError: Object #<Object> has no method 'match'
+    at module.exports.locate (f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\lib\determine-imports.js:49:17)
+    at process_import_rule (f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\lib\determine-imports.js:34:20)
+    at f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\lib\determine-imports.js:28:5
+    at Array.forEach (native)
+    at module.exports.process_tree_node (f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\lib\determine-imports.js:27:16)
+    at module.exports (f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\lib\determine-imports.js:10:3)
+    at f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\lib\middleware.js:116:29
+    at Object.finish [as _finish] (f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\node_modules\less\lib\less\parser.js:669:28)
+    at Object.subFinish [as _finish] (f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\node_modules\less\lib\less\import-visitor.js:63:47)
+    at Object.tree.importVisitor.run (f:\GitHub\mongodb-manage-tools\node_modules\less-middleware\node_modules\less\lib\less\import-visitor.js:25:22)
+[Thu Mar 20 2014 10:00:16 GMT+0800 (China Standard Time)] /stylesheets/css/style.css
+undefined
+[Thu Mar 20 2014 10:00:18 GMT+0800 (China Standard Time)] /stylesheets/css/style.css
+undefined
+[Thu Mar 20 2014 10:26:13 GMT+0800 (China Standard Time)] /add
+SyntaxError: Unexpected token ) in "f:\\GitHub\\mongodb-manage-tools\\views\\add.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (f:\GitHub\mongodb-manage-tools\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (f:\GitHub\mongodb-manage-tools\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (f:\GitHub\mongodb-manage-tools\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\response.js:798:7)
+    at f:\GitHub\mongodb-manage-tools\routes\index.js:83:8
+    at callbacks (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:138:11)
+[Thu Mar 20 2014 10:26:31 GMT+0800 (China Standard Time)] /add
+SyntaxError: Unexpected token ) in "f:\\GitHub\\mongodb-manage-tools\\views\\add.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (f:\GitHub\mongodb-manage-tools\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (f:\GitHub\mongodb-manage-tools\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (f:\GitHub\mongodb-manage-tools\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\response.js:798:7)
+    at f:\GitHub\mongodb-manage-tools\routes\index.js:83:8
+    at callbacks (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:138:11)
