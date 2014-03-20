@@ -4,6 +4,7 @@
  */
 var crypto = require('crypto'),
     fs = require('fs'),
+    ceshi = require('./ceshi.js'),
     User = require('../models/user.js');
 
 module.exports = function(app) {
@@ -87,9 +88,7 @@ module.exports = function(app) {
 		    error: req.flash('error').toString()
 			});
 		});
-	app.post('/add', function(req, res){
-
-	});
+	app.post('/add', ceshi.doAdd);
 	app.get('/logout', function (req, res) {
 	  req.session.user = null;
 	  req.flash('success', '登出成功!');

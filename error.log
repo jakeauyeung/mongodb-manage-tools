@@ -280,3 +280,75 @@ SyntaxError: Unexpected token ) in "f:\\GitHub\\mongodb-manage-tools\\views\\add
     at f:\GitHub\mongodb-manage-tools\routes\index.js:83:8
     at callbacks (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:164:37)
     at param (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:138:11)
+[Thu Mar 20 2014 15:11:27 GMT+0800 (China Standard Time)] /add
+TypeError: Cannot use 'in' operator to search for '_id' in [{"id":2333,"recommend":89,"title":"测试一下你的危机意识如何","detail":"<center><b>测试一下你的危机意识如何</b></center>","themes":[{"title":"一头乳牛正从牛舍里出来吃草，请你凭直觉判断，它将走至哪一处觅食？","theme":[["山脚下",1,0],["大树下",2,0],["河流旁",3,0],["栅栏农舍旁",4,0]]}],"results":[[1,1,"<p>1、你的危机意识很强，甚至有点杞人忧天！也许很容易的事，被你天天惦念着，久而久之也变成困难的。放开心胸，天塌下来有高个子顶着！</p>"],[2,2,"<p>2、你是属于高唱快乐得不得了的人，一天到晚无忧无虑，你认为船到桥头自然直，没啥好怕的。唉，如此乐天知命，天底下恐怕像你这么乐观的人已经不多了。</p>"],[3,3,"<p>3、你成天迷迷糊糊的，记性又不好，总是要人家提醒你才会有危机意识，但是一会儿之后，又完全不记得危机意识是什么东西了！你怎么像个老顽童似的？</p>"],[4,4,"<p>4、你的确满有危机意识的，跟你在一块儿的人也被你强迫一起危机意识，简直是思想强暴嘛！不过你所担心的事的确有点担心的价值！也就是说，你没事瞎紧张，反而常常未雨绸缪！</p>"]]}]
+    at model.Document.$__buildDoc (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\document.js:158:27)
+    at model.Document (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\document.js:57:20)
+    at model.Model (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\model.js:43:12)
+    at new model (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\model.js:2498:11)
+    at DataDAO.save (f:\GitHub\mongodb-manage-tools\models\ceshiti.js:22:18)
+    at exports.doAdd (f:\GitHub\mongodb-manage-tools\routes\ceshi.js:22:13)
+    at callbacks (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:138:11)
+    at pass (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:173:5)
+[Thu Mar 20 2014 15:12:12 GMT+0800 (China Standard Time)] /add
+TypeError: Cannot use 'in' operator to search for '_id' in [{"id":2333,"recommend":89,"title":"测试一下你的危机意识如何","detail":"<center><b>测试一下你的危机意识如何</b></center>","themes":[{"title":"一头乳牛正从牛舍里出来吃草，请你凭直觉判断，它将走至哪一处觅食？","theme":[["山脚下",1,0],["大树下",2,0],["河流旁",3,0],["栅栏农舍旁",4,0]]}],"results":[[1,1,"<p>1、你的危机意识很强，甚至有点杞人忧天！也许很容易的事，被你天天惦念着，久而久之也变成困难的。放开心胸，天塌下来有高个子顶着！</p>"],[2,2,"<p>2、你是属于高唱快乐得不得了的人，一天到晚无忧无虑，你认为船到桥头自然直，没啥好怕的。唉，如此乐天知命，天底下恐怕像你这么乐观的人已经不多了。</p>"],[3,3,"<p>3、你成天迷迷糊糊的，记性又不好，总是要人家提醒你才会有危机意识，但是一会儿之后，又完全不记得危机意识是什么东西了！你怎么像个老顽童似的？</p>"],[4,4,"<p>4、你的确满有危机意识的，跟你在一块儿的人也被你强迫一起危机意识，简直是思想强暴嘛！不过你所担心的事的确有点担心的价值！也就是说，你没事瞎紧张，反而常常未雨绸缪！</p>"]]}]
+    at model.Document.$__buildDoc (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\document.js:158:27)
+    at model.Document (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\document.js:57:20)
+    at model.Model (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\model.js:43:12)
+    at new model (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\model.js:2498:11)
+    at DataDAO.save (f:\GitHub\mongodb-manage-tools\models\ceshiti.js:22:18)
+    at exports.doAdd (f:\GitHub\mongodb-manage-tools\routes\ceshi.js:22:13)
+    at callbacks (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:138:11)
+    at pass (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:173:5)
+[Thu Mar 20 2014 15:15:18 GMT+0800 (China Standard Time)] /add
+TypeError: Cannot read property '0' of undefined
+    at exports.doAdd (f:\GitHub\mongodb-manage-tools\routes\ceshi.js:20:24)
+    at callbacks (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:138:11)
+    at pass (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:33:10)
+    at next (f:\GitHub\mongodb-manage-tools\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (f:\GitHub\mongodb-manage-tools\node_modules\express\node_modules\connect\lib\middleware\session.js:315:9)
+    at f:\GitHub\mongodb-manage-tools\node_modules\express\node_modules\connect\lib\middleware\session.js:339:9
+    at f:\GitHub\mongodb-manage-tools\node_modules\connect-mongo\lib\connect-mongo.js:220:17
+[Thu Mar 20 2014 15:20:51 GMT+0800 (China Standard Time)] /add
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at exports.doAdd (f:\GitHub\mongodb-manage-tools\routes\ceshi.js:18:19)
+    at callbacks (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:138:11)
+    at pass (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:33:10)
+    at next (f:\GitHub\mongodb-manage-tools\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (f:\GitHub\mongodb-manage-tools\node_modules\express\node_modules\connect\lib\middleware\session.js:315:9)
+    at f:\GitHub\mongodb-manage-tools\node_modules\express\node_modules\connect\lib\middleware\session.js:339:9
+[Thu Mar 20 2014 15:26:45 GMT+0800 (China Standard Time)] /add
+TypeError: Cannot use 'in' operator to search for '_id' in {"name":"未来警察","alias":["Future X-Cops ","Mei loi ging chaat"],"publish":"2010-04-29","images":{"coverBig":"/img/movie/1_big.jpg","coverSmall":"/img/movie/1_small.jpg"},"source":[{"source":"优酷","link":"http://www.youku.com","swfLink":"http://player.youku.com/player.php/sid/XMTY4NzM5ODc2/v.swf","quality":"高清","version":"正片","lang":"汉语","subtitle":"中文字幕"},{"source":"搜狐","link":"http://tv.sohu.com","swfLink":"http://share.vrs.sohu.com/75837/v.swf&topBar=1&autoplay=false&plid=3860&pub_catecode=","quality":"高清","version":"正片","lang":"汉语","subtitle":"中文字幕"}]}
+    at model.Document.$__buildDoc (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\document.js:158:27)
+    at model.Document (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\document.js:57:20)
+    at model.Model (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\model.js:43:12)
+    at new model (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\model.js:2498:11)
+    at DataDAO.save (f:\GitHub\mongodb-manage-tools\models\ceshiti.js:29:18)
+    at exports.doAdd (f:\GitHub\mongodb-manage-tools\routes\ceshi.js:25:13)
+    at callbacks (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:138:11)
+    at pass (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:173:5)
+[Thu Mar 20 2014 15:26:49 GMT+0800 (China Standard Time)] /add
+TypeError: Cannot use 'in' operator to search for '_id' in {"name":"未来警察","alias":["Future X-Cops ","Mei loi ging chaat"],"publish":"2010-04-29","images":{"coverBig":"/img/movie/1_big.jpg","coverSmall":"/img/movie/1_small.jpg"},"source":[{"source":"优酷","link":"http://www.youku.com","swfLink":"http://player.youku.com/player.php/sid/XMTY4NzM5ODc2/v.swf","quality":"高清","version":"正片","lang":"汉语","subtitle":"中文字幕"},{"source":"搜狐","link":"http://tv.sohu.com","swfLink":"http://share.vrs.sohu.com/75837/v.swf&topBar=1&autoplay=false&plid=3860&pub_catecode=","quality":"高清","version":"正片","lang":"汉语","subtitle":"中文字幕"}]}
+    at model.Document.$__buildDoc (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\document.js:158:27)
+    at model.Document (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\document.js:57:20)
+    at model.Model (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\model.js:43:12)
+    at new model (f:\GitHub\mongodb-manage-tools\node_modules\mongoose\lib\model.js:2498:11)
+    at DataDAO.save (f:\GitHub\mongodb-manage-tools\models\ceshiti.js:29:18)
+    at exports.doAdd (f:\GitHub\mongodb-manage-tools\routes\ceshi.js:25:13)
+    at callbacks (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:138:11)
+    at pass (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (f:\GitHub\mongodb-manage-tools\node_modules\express\lib\router\index.js:173:5)
